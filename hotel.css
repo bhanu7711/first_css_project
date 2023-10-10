@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section
+{
+background-image: url(https://pixabay.com/photos/lobby-hotel-interior-hallway-398845/);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+.hero-text{
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text > h1{
+    font-size: 3rem;
+    width: fit-content;
+    
+
+}
+.book-button,
+.know-button{
+    background-color:aqua;
+    font-size: 1em ;
+    padding: 10px 20px;
+    border:5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.amenities{
+
+    text-align: left;
+    
+    
+}
+.room-types{
+    padding: 5px;
+    text-align: left;
+}
+.Room{
+    margin: 5px;
+    padding: 10px;
+}
+.amenities-ul{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    text-align: left;
+
+}
+.about-section {
+    text-align: center;
+
+}
+.about-us{
+    width: 50%;
+    float:left;
+    margin: 5px;
+    text-align: center;
+}
+.help-button{
+    color: white;
+    float: right;
+    background-color:brown;
+    border-radius: 20px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+ul li{
+    list-style: none;
+}
+.lable{
+    color: black;
+}
+.room-select{
+    margin: 10px;
+    width: max-content;
+    text-align: center;
+    
+
+}
+.room-select{
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+
+}
+.form-heading{
+  margin: 10px;  
+}
+.form{
+    border: 3px solid gray;
+    margin: 5px;
+    padding: 10px;
+   width: max-content;
+    text-align: inherit;   
+}
+.fa-solid{
+ margin: 5px;
+}
+@media only screen and (max-width:600px)
+{
+    .hero-text > h1{
+        font-size: 2rem;
+    
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    
+}
+@media only screen and (min-width:300px) and (max-width:601px){
+    .hero-text > h1{
+        font-size: 2rem;
+    
+    }
+    p{
+        font-size: 0.8rem;
+    }
+} 
